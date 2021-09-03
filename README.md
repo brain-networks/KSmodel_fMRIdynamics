@@ -1,6 +1,6 @@
 # KSmodel_fMRIdynamics
 
-This data and code package should allow users to independently reproduce findings reported in Pope et al (2021).
+This data and code package should allow users to independently reproduce findings reported in Pope et al (2021; https://www.biorxiv.org/content/10.1101/2021.05.16.444357v1).
 
 'KS_model_main' runs a single instance of the KS model with model parameters set to the values employed for 
 most analyses in the main text (k = 280; vel = 12). The model should run, on a fast machine, within 
@@ -22,3 +22,7 @@ some summary statistics for SC-FC relationships
 
 These scripts read in various data files that contain time series, the SC consensus modules, and empirical SC
 and FC matrices.  See text of paper for description.
+
+If you use this code/data, please cite:
+
+Pope, M., Fukushima, M., Betzel, R., & Sporns, O. (2021). Modular origins of high-amplitude co-fluctuations in fine-scale functional connectivity dynamics. bioRxiv.
