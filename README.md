@@ -13,12 +13,12 @@ Users can adapt the code to create new simulations with different parameters. No
 slightly with published figures and statistics as each simulation uses different initial conditions and 
 random seeds.
 
---'figure_SCFC' re-creates part of Fig 2 from the exact model data used in the paper
+1. 'figure_SCFC' re-creates part of Fig 2 from the exact model data used in the paper
 
---'figure_SCFC2' re-creates a different part of Fig 2 from the exact model data used in the paper, and computes
+2. 'figure_SCFC2' re-creates a different part of Fig 2 from the exact model data used in the paper, and computes
 some summary statistics for SC-FC relationships
 
---'figure_eventclusters' re-creates part of Fig 5 from the exact model data used in the paper
+3. 'figure_eventclusters' re-creates part of Fig 5 from the exact model data used in the paper
 
 These scripts read in various data files that contain time series, the SC consensus modules, and empirical SC
 and FC matrices.  See text of paper for description.
